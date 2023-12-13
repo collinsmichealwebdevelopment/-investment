@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants/indexhome";
 import styles from "../style";

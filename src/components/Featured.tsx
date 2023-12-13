@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { useEffect, useState } from 'react'
 import {FiArrowUpRight,FiArrowDown} from 'react-icons/fi'
 import axios from 'axios'

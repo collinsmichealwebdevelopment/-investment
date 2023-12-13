@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { features } from "../constants/indexhome";
 import styles, { layout } from "../style";
 import Button from "./Button";

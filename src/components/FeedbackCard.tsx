@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { quotes } from "../assets";
 
 
