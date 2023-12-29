@@ -17,10 +17,10 @@ const Billing = () => {
 
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Why choose <br className="sm:block hidden"/> Ogadi's Investment?
+          Why choose <br className="sm:block hidden"/> GrimGlideTrading?
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>By offering secured user data,
-         being highly credible, and leveraging big data insights, Ogadi's investment provides clients 
+         being highly credible, and leveraging big data insights, GrimGlideTrading provides clients 
          with a compelling reason to choose us for their investment needs.</p>
          <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img src={apple} alt="apple_store"

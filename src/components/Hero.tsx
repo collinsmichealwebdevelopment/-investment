@@ -37,7 +37,7 @@ const Hero = () =>
           leading-[75px] w-full">
             Investment website
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Ogadi's investment is an investment 
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>GrimGlideTrading(GGT) is an investment 
         company that helps clients achieve their financial goals through strategic and profitable investment plans </p>
       </div>
 

@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { logo } from "../assets";
+import { biglogo} from "../assets";
 import { footerLinks, socialMedia } from "../constants/indexhome";
 import styles from "../style";
 
@@ -11,7 +11,7 @@ const Footer = () =>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className="flex-1 flex flex-col justify-start mr-10">
           <img
-          src={logo}
+          src={biglogo}
           alt="logo"
           className="w-[200px] h-[140px] object-contain"/>
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>A new way to make investment easy,

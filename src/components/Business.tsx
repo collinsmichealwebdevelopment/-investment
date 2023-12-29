@@ -28,7 +28,7 @@ const Business = () => {
         <h2 className={styles.heading2}>
           You do the business, <br className="sm:block hidden"/> we'll handle the money.
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>At Ogadi's investment, we are committed 
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>At GrimGlideTrading(GGT), we are committed 
         to empowering individuals 
         and businesses to make smart investment decisions. With our expertise in the financial market,
          we offer a wide range of

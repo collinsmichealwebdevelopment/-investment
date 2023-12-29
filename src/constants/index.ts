@@ -1,50 +1,55 @@
 export const sidebarLinks = [
     {
-      imgURL: "/assets/icons/home.svg",
+      imgURL: "/assets/images/home.png",
       route: "/",
       label: "Home",
     },
     {
-      imgURL: "/assets/icons/wallpaper.svg",
+      imgURL: "/assets/images/withdraw.png",
       route: "/withdrawal",
       label: "Withdrawal",
     },
     {
-      imgURL: "/assets/icons/people.svg",
+      imgURL: "/assets/images/deposit.png",
       route: "/deposit",
       label: "Deposit",
     },
     {
-      imgURL: "/assets/icons/bookmark.svg",
+      imgURL: "/assets/images/plan.png",
       route: "/my-plan",
       label: "My Plan",
     },
     {
-      imgURL: "/assets/icons/gallery-add.svg",
-      route: "/activity",
-      label: "Activity",
+      imgURL: "/assets/images/employees.png",
+      route: "/referrals",
+      label: "Referrals",
     },
   ];
   
   export const bottombarLinks = [
     {
-      imgURL: "/assets/icons/home.svg",
+      imgURL: "/assets/images/home.png",
       route: "/",
       label: "Home",
     },
     {
-      imgURL: "/assets/icons/wallpaper.svg",
+      imgURL: "/assets/images/withdraw.png",
       route: "/withdrawal",
       label: "Withdrawal",
     },
     {
-      imgURL: "/assets/icons/people.svg",
+      imgURL: "/assets/images/deposit.png",
       route: "/deposit",
       label: "Deposit",
     },
     {
-      imgURL: "/assets/icons/bookmark.svg",
+      imgURL: "/assets/images/plan.png",
       route: "/my-plan",
-      label: "My Plan",
+      label: "Plan",
+    },
+    {
+      imgURL: "/assets/images/employees.png",
+      route: "/referrals",
+      label: "Referrals",
     },
   ];

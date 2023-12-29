@@ -1,4 +1,4 @@
-import { ClerkProvider,   SignedIn, SignedOut,  } from "@clerk/clerk-react";
+import { ClerkProvider, SignedIn, SignedOut,  } from "@clerk/clerk-react";
 import { Route, Routes, useNavigate} from 'react-router-dom';
 import './globals.css'
 import Protected from "./_auth/Protected";
@@ -8,10 +8,9 @@ import Withdrawal from "./shared/Withdrawal";
 import Deposit from "./shared/Deposit";
 import Myplan from "./shared/Myplan";
 import Home from "./shared/Home";
-import Activity from "./shared/Activity";
 import Homepage from "./Homepage/Homepage";
-
-
+import Depositmanual from "./shared/Depositmanual";
+import Referral from "./shared/Referral";
 
 
 if (!import.meta.env.VITE_CLERK_PUBLISHABLE_KEY) {
@@ -23,8 +22,6 @@ const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 const App = () => {
   const navigate = useNavigate();
   
-  
-
   return (
     <main className='flex h-screen'>
       <ClerkProvider publishableKey={clerkPubKey} 
@@ -34,15 +31,14 @@ const App = () => {
           <Route index element={<Home />}/>
         <Route path="/withdrawal" element={<Withdrawal />} />
         <Route path="/deposit" element={<Deposit/>} />
+        <Route path="/deposit-manual/:id/*" element={<Depositmanual/>} />
         <Route path="/my-plan" element={<Myplan />} />
-        <Route path="/activity" element={<Activity />}/>
-
+        <Route path="/referrals" element={<Referral />}/>
         </Route>
         <Route 
         path="/home"
         element={<Homepage />}/>
         
-
           <Route
           path="/sign-in/*"
           element={<Signin />}/>

@@ -29,8 +29,14 @@ import cryptoimage2 from "./crypto-image2.jpg"
 import world1 from "./world-image.jpg"
 import world2 from "./world-image2.jpg"
 import world3 from "./world-image3.jpg"
+import btcdashboard from "./btc-dashboard.jpg"
+import robotbtc from  "./robot-btc.jpg"
+import biglogo from "./biglogo.svg"
 
 export {
+  biglogo,
+  robotbtc,
+  btcdashboard,
   world1,
   world2,
   world3,

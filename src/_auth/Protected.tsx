@@ -1,13 +1,13 @@
-import {  useSession,  } from "@clerk/clerk-react";
-import { Navigate, Outlet } from "react-router-dom";
+
+import {  useSession } from "@clerk/clerk-react";
+import { Navigate, Outlet} from "react-router-dom";
 import Topbar from "../shared/Topbar";
 import Leftsidebar from "../shared/Leftsidebar";
 import Bottombar from "../shared/Bottombar";
 
-
 const Protected = () => {
   const { isLoaded, session } = useSession()
-
+  
   if (!isLoaded) {
     return
   }

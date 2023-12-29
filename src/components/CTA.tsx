@@ -9,7 +9,7 @@ const CTA = () => {
     box-shadow`}>
       <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>Let's try our service now!</h2>
-        <p className={`${styles.paragraph}`}>At Ogadi's investment, we leverage the power of big data analytics to gain
+        <p className={`${styles.paragraph}`}>At GrimGlideTrading(GGT), we leverage the power of big data analytics to gain
            valuable insights into market trends and investment opportunities.</p>
       </div>
 

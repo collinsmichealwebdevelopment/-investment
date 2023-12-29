@@ -36,7 +36,12 @@ module.exports = {
         'primary': '#00040f',
         'secondary': '#00f6ff',
         'dimWhite': 'rgba(255,255,255,0.7',
-        'dimBlue': 'rgba(9,151,124,0.1)'
+        'dimBlue': 'rgba(9,151,124,0.1)',
+        'main-bg': '#FAFBFB',
+        'main-dark-bg': '#20232A',
+        'secondary-dark-bg': '#33373E',
+        'light-gray': '#F7F7F7',
+        'half-transparent': 'rgba(0, 0, 0, 0.5)',
       },
       screens: {
         'xs': '480px',
@@ -47,6 +52,14 @@ module.exports = {
         'xl': '1700px'
       
       },
+
+      borderWidth: {
+        1: '1px',
+      },
+      borderColor: {
+        color: 'rgba(0, 0, 0, 0.1)',
+      },
+      
       width: {
         '420': '420px',
         '465': '465px',
@@ -64,6 +77,7 @@ module.exports = {
           from: { height: 'var(--radix-accordion-content-height)' },
           to: { height: 0 },
         },
+
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
