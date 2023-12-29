@@ -1,7 +1,7 @@
+// @ts-nocheck
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser } from "./UserReducer";
-import { useNavigate } from "react-router-dom";
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
@@ -12,7 +12,6 @@ const Withdrawal = () => {
   const [email, setEmail] = useState('')
   const users = useSelector((state) => state.users);
   const dispatch = useDispatch();
-  const navigate = useNavigate()
   const { toast } = useToast()
 
   const handleSubmit = (event) => {
