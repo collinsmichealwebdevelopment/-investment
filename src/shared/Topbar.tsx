@@ -20,7 +20,7 @@ const Topbar = () => {
                
                 <div  className='flex-center gap-3'>
                     <img 
-                    src='/assets/images/logo.png'
+                    src='/assets/images/biglogo.svg'
                     alt="profile"
                     className='h-12 w-17 rounded-full'
                     />
